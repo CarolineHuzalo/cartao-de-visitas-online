@@ -201,11 +201,23 @@ body, html {
 .social li a{
     border-radius: 3px;
     padding: 10px;
+    margin:10px;
     border: 1px solid white;
     display: block;
     text-decoration: none;
     color:white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+@media (min-width: 768px){
+    .social li a{
+        border-radius: 3px;
+        padding: 10px;
+        border: 1px solid white;
+        display: block;
+        text-decoration: none;
+        color:white;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    }
 }
 .social a:hover {
     background: white;
